@@ -1,1 +1,1 @@
-/home/xyj/researchs/s2e-1.2-20121117/build/qemu-release/i386-s2e-softmmu/qemu-system-i386 -hda lab5_result/bin/ucore.img -drive file=lab5_result/bin/swap.img,media=disk,cache=writeback -serial null -s2e-config-file config.lua -s2e-verbose 
+/home/xyj/researchs/s2e-1.2-old/build/qemu-release/i386-s2e-softmmu/qemu-system-i386 -hda lab5_result/bin/ucore.img -drive file=lab5_result/bin/swap.img,media=disk,cache=writeback -serial null -s2e-config-file config.lua -s2e-verbose 
