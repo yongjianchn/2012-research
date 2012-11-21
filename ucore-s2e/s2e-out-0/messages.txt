@@ -1,0 +1,3 @@
+Creating plugin CorePlugin
+Creating plugin BaseInstructions
+1 [State 0] Created initial state

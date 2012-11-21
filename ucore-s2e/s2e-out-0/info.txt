@@ -1,0 +1,5 @@
+BEGIN searcher description
+<BatchingSearcher> timeBudget: 1, instructionBudget: 0, baseSearcher:
+RandomSearcher
+</BatchingSearcher>
+END searcher description

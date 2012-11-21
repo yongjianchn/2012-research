@@ -1,0 +1,18 @@
+Current data layout: e-p:64:64:64-S128-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-f32:32:32-f64:64:64-v64:64:64-v128:128:128-a0:0:64-s0:64:64-f80:128:128-f128:128:128-n8:16:32:64
+Current target triple: 
+Creating plugin CorePlugin
+Creating plugin BaseInstructions
+1 [State 0] Created initial state
+Adding memory block (startAddr = 0xffffffffffffffff, size = 0x8000000, hostAddr = 0x7f6f06a00000, isSharedConcrete=0, name=pc.ram)
+Stack trace
+  /home/xyj/researchs-old/build/qemu-release/i386-s2e-softmmu/qemu-system-i386 : ()+0x409199
+  /home/xyj/researchs-old/build/qemu-release/i386-s2e-softmmu/qemu-system-i386 : ()+0x4c0d09
+  /lib/x86_64-linux-gnu/libc.so.6 : ()+0x3b921
+  /lib/x86_64-linux-gnu/libc.so.6 : ()+0x3b9a5
+  /home/xyj/researchs-old/build/qemu-release/i386-s2e-softmmu/qemu-system-i386 : ()+0x317e7c
+  /home/xyj/researchs-old/build/qemu-release/i386-s2e-softmmu/qemu-system-i386 : ()+0x315a5d
+  /home/xyj/researchs-old/build/qemu-release/i386-s2e-softmmu/qemu-system-i386 : ()+0x31747f
+  /home/xyj/researchs-old/build/qemu-release/i386-s2e-softmmu/qemu-system-i386 : ()+0x317121
+  /home/xyj/researchs-old/build/qemu-release/i386-s2e-softmmu/qemu-system-i386 : main()+0x3e5d
+  /lib/x86_64-linux-gnu/libc.so.6 : __libc_start_main()+0xed
+  /home/xyj/researchs-old/build/qemu-release/i386-s2e-softmmu/qemu-system-i386 : ()+0x15a6a9

@@ -91,7 +91,7 @@ void cpu_state_reset(CPUX86State *env)
     env->df = 1;
     //WR_cpu(env, eflags, 0x2);
 //[chy]----------------------------
-   c /* FPU init */
+    /* FPU init */
     for(i = 0;i < 8; i++)
         env->fptags[i] = 1;
     env->fpuc = 0x37f;
