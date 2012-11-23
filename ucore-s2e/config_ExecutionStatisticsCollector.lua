@@ -9,6 +9,10 @@ s2e = {
 }
 plugins = {
   -- Enable a plugin that handles S2E custom opcode
-  "BaseInstructions"
+  "BaseInstructions",
   "ExecutionStaticCollector"
+}
+pluginsConfig = {
+}
+pluginsConfig.ExecutionStaticCollector = {
 }

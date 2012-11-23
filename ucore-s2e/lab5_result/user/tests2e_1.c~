@@ -4,6 +4,8 @@
 
 int main(void)
 {
+
+	s2e_rawmon_loadmodule("myprogram",0x0,0xff000000);
   char str[3];
   // printf("Enter two characters: ");
   // if(!fgets(str, sizeof(str), stdin))
@@ -37,6 +39,6 @@ int main(void)
   s2e_get_example(str, 2);
   cprintf("'%c%c' %02x %02x\n", str[0], str[1],
          (unsigned char) str[0], (unsigned char) str[1]);
-
+  s2e_kill_state(0,"progran terminated");
   return 0;
 }

@@ -527,7 +527,8 @@ static inline int s2e_get_module_info(const char *moduleToRetrieve,
         return result;
     }
 
-    size_t start, end;
+    size_t 
+, end;
     char executable;
 
     char line[256], path[128];

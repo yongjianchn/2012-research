@@ -1,1 +1,0 @@
-'/home/xyj/researchs/build/qemu-release/i386-s2e-softmmu/qemu-system-i386' '-hda' 'lab5_result/bin/ucore.img' '-drive' 'file=lab5_result/bin/swap.img,media=disk,cache=writeback' '-serial' 'null' '-s2e-config-file' 'config_ExecutionTracer.lua' '-s2e-verbose'
