@@ -4,6 +4,8 @@
 
 int main(void)
 {
+
+	s2e_rawmon_loadmodule("myprogram",0x0,0xffff0000);
   char str[3];
   // printf("Enter two characters: ");
   // if(!fgets(str, sizeof(str), stdin))
